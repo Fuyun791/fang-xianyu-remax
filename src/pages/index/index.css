@@ -1,0 +1,131 @@
+.my-input {
+  width: 100%;
+  background-color: #ffffff;
+  color: #dce3e5;
+  border-radius: 50px;
+  height: 2.6rem;
+  font-size: 1rem;
+  line-height: 3.8;
+}
+.input-shadow {
+  box-shadow: 0px 1px 6px 1px #eeeeee;
+}
+.home-input-top {
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1000;
+  padding: 0px 26px;
+  text-align: center;
+}
+.block-100 {
+  height: 100px;
+  width: 100%;
+}
+.container {
+  height: auto;
+}
+.top-text-bottom {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  background-color: #ffe60f;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  z-index: -1;
+}
+.top-text-bottom-short {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background-color: #ffe60f;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  z-index: 101;
+}
+.card {
+  border: 1px solid #dce3e5;
+  border-radius: 19px;
+  background-color: white;
+  padding: 12px 24px;
+}
+.card-level {
+  box-sizing: border-box;
+  padding: 0px 26px;
+  margin-bottom: 14px;
+}
+.card-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.card-flex-row {
+  display: flex;
+  justify-content: space-around;
+}
+.first-block {
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: .875rem;
+  text-align: center;
+}
+.small-card-row {
+  display: flex;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: .875rem;
+  text-align: center;
+  color: #999;
+}
+.auto-flex-width {
+  flex: auto;
+}
+.divid-row {
+  margin: 4px 0px;
+  height: 1px;
+  background: #dce3e5;
+}
+.divid-col {
+  margin: 0px 18px;
+  width: 1px;
+  background: #dce3e5;
+}
+.home-image {
+  width: 60px;
+  height: 60px;
+}
+.home-second-image {
+  width: 100%;
+  height: 120px;
+}
+.home-bottom-image {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px;
+}
+.second-font {
+  font-size: .75rem;
+  color: #999;
+}
+.second-card-magin-bottom {
+  margin: 20px 0px;
+}
+.width-half-card {
+  box-sizing: border-box;
+  font-size: .875rem;
+  margin-bottom: 14px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.width-half-card > view {
+  display: inline-block;
+}
+.width-half-image {
+  width: 100%;
+  height: 100%;
+}
+.card-flex-left {
+  column-count: 2;
+  column-gap: 10px;
+}

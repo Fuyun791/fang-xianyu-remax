@@ -1,0 +1,22 @@
+page {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #f3f0f0;
+  color: #454d64;
+  /* box-sizing: border-box; */
+}
+.scale-1px {
+  position: relative;
+  border: none;
+}
+.scale-1px:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background: #dce3e5;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
