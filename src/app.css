@@ -4,6 +4,12 @@ page {
   color: #454d64;
   /* box-sizing: border-box; */
 }
+.card {
+  border: 1px solid #dce3e5;
+  border-radius: 19px;
+  background-color: white;
+  padding: 12px 24px;
+}
 .scale-1px {
   position: relative;
   border: none;

@@ -44,12 +44,6 @@
   border-bottom-right-radius: 20%;
   z-index: 101;
 }
-.card {
-  border: 1px solid #dce3e5;
-  border-radius: 19px;
-  background-color: white;
-  padding: 12px 24px;
-}
 .card-level {
   box-sizing: border-box;
   padding: 0px 26px;
@@ -125,7 +119,16 @@
   width: 100%;
   height: 100%;
 }
+.card-flex-half {
+  display: flex;
+}
 .card-flex-left {
-  column-count: 2;
-  column-gap: 10px;
+  flex: 0 0 50%;
+  box-sizing: border-box;
+  padding-right: 8px;
+}
+.card-flex-right {
+  flex: 0 0 50%;
+  box-sizing: border-box;
+  padding-left: 8px;
 }
