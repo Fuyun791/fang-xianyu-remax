@@ -7,4 +7,5 @@
 * 消息
 * 我的
 
-开发日志 gitbook
+开发日志 [gitbook](https://app.gitbook.com/@fuyun791/s/fang-xianyu/)
+
