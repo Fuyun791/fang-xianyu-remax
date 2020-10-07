@@ -72,7 +72,7 @@ export default () => {
   const [cardRightList, setCardRightList] = useState([]);
 
   const cardLeftLists = cardLeftList.map((date) => {
-    console.log("product id is " + date.productId);
+    // console.log("product id is " + date.productId);
     return (
       <View className="width-half-card" key={date.productId}>
         <Image
@@ -86,7 +86,7 @@ export default () => {
   });
 
   const cardRightLists = cardRightList.map((date) => {
-    console.log("product id is " + date.productId);
+    // console.log("product id is " + date.productId);
     return (
       <View className="width-half-card" key={date.productId}>
         <Image
@@ -127,7 +127,7 @@ export default () => {
           rightHeight += picHeight;
         }
       });
-      // 这里有一个好奇怪的点，setCardRightList调用时会导致cardLeftLists再被执行一次
+      // 这里有一个好奇怪的点，setCardRightList调用时会导致cardLeftLists的map再重新执行一次
       setCardLeftList(leftCard);
       setCardRightList(rightCard);
     };
