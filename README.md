@@ -22,15 +22,7 @@ npm run dev or npm run build
 
 这个项目就是为了练习react写小程序而写的。在此期间看了 taro，remax，rax 。在选择上偏向阿里，所以没选京东的taro，先使用了rax。但在rax的使用过程中发现改不了顶部导航栏的颜色。简单的用了下感觉rax写支付宝小程序肯定没问题，但微信小程序就很奇怪。然后就跑去用remax，总体用下来感觉不错，因为正像他们宣传的一样用真正的react写小程序，在编程中引入的包也就是react的包，所以可以说是无缝连接，平时该怎么写就怎么写。
 
-## 目前页面
-
-![&#x9996;&#x9875;&#xFF08;&#x56FE;&#x7247;&#x6765;&#x81EA;&#x7F51;&#x7EDC;&#xFF0C;&#x4FB5;&#x5220;&#xFF09;](.gitbook/assets/3.jpg)
-
-![&#x6211;&#x7684;](.gitbook/assets/4.jpg)
-
-**关于图片的地址访问。由于微信小程序的打包大小的问题，与我没有一个存放图片的服务器，我是把图片放到了我的Github Page里来进行访问。如果你要把这个项目拷下来，请务必改变图片地址，不要访问我的Github Page。**
-
-## [Gitbook 中记录的开发日志](https://fuyun791.gitbook.io/fang-xianyu/)
+## [项目详情可看 Gitbook 中记录的开发日志](https://fuyun791.gitbook.io/fang-xianyu/)
 
 * 首页 （顶部的那个黄块的效果与瀑布流）
 * 我的

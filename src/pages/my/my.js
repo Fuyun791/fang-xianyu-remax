@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { View, Label, Image, Text } from "remax/wechat";
 import UserInfo from "./user-info";
 import MyLevel from "./my-level";
+import MyCard from "./my-card";
 import "./my.css";
 
 export default () => {
@@ -11,35 +12,7 @@ export default () => {
       <View className="content">
         <UserInfo />
         <MyLevel />
-        <View>
-          <View className="card myCard">
-            <View>卖在闲鱼</View>
-            <View className="myPic">
-              <View>1</View>
-              <View>2</View>
-            </View>
-            <View>special</View>
-          </View>
-          <View className="card myCard">
-            <View>买在闲鱼</View>
-            <View className="myPic">
-              <View>
-                  <View>1</View>
-                  <View>2</View>
-              </View>
-              <View>2</View>
-            </View>
-            <View>special</View>
-          </View>
-          <View className="card myCard">
-            <View>玩在闲鱼</View>
-            <View className="myPic">
-              <View>1</View>
-              <View>2</View>
-            </View>
-            <View>special</View>
-          </View>
-        </View>
+        <MyCard />
       </View>
     </View>
   );
