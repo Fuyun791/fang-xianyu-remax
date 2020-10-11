@@ -67,6 +67,35 @@ const cards = [
   },
 ];
 
+function HalfCard(props) {
+  return (
+    <View className="width-half-card">
+      <Image
+        className="width-half-image"
+        src={props.productImage}
+        mode="widthFix"
+      />
+      <View>
+        <View className="font-bold-black">{props.productTitle}</View>
+        <View className="half-card-price">
+          <Text>{"￥" + props.productPrice}</Text>
+          <Text>{props.productLove + "人想要"}</Text>
+        </View>
+        <View className="half-card-name">
+          <View>
+            <Image
+              src="/images/user-center.png"
+              style={{ marginRight: "4px", marginBottom: "12px" }}
+            />
+            <Text>{props.productName}</Text>
+          </View>
+          <View>{props.productCredit}</View>
+        </View>
+      </View>
+    </View>
+  );
+}
+
 export default () => {
   const [cardLeftList, setCardLeftList] = useState([]);
   const [cardRightList, setCardRightList] = useState([]);
@@ -74,28 +103,32 @@ export default () => {
   const cardLeftLists = cardLeftList.map((date) => {
     // console.log("product id is " + date.productId);
     return (
-      <View className="width-half-card" key={date.productId}>
-        <Image
-          className="width-half-image"
-          src={date.productImage}
-          mode="widthFix"
-        />
-        <View>{date.productTitle}</View>
-      </View>
+      <HalfCard
+        key={date.productId}
+        productId={date.productId}
+        productImage={date.productImage}
+        productTitle={date.productTitle}
+        productPrice={date.productPrice}
+        productLove={date.productLove}
+        productName={date.productName}
+        productCredit={date.productCredit}
+      />
     );
   });
 
   const cardRightLists = cardRightList.map((date) => {
     // console.log("product id is " + date.productId);
     return (
-      <View className="width-half-card" key={date.productId}>
-        <Image
-          className="width-half-image"
-          src={date.productImage}
-          mode="widthFix"
-        />
-        <View>{date.productTitle}</View>
-      </View>
+      <HalfCard
+        key={date.productId}
+        productId={date.productId}
+        productImage={date.productImage}
+        productTitle={date.productTitle}
+        productPrice={date.productPrice}
+        productLove={date.productLove}
+        productName={date.productName}
+        productCredit={date.productCredit}
+      />
     );
   });
 

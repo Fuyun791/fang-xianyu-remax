@@ -114,6 +114,11 @@
 }
 .width-half-card > view {
   display: inline-block;
+  width: 100%;
+}
+.width-half-card > view > view {
+  box-sizing: border-box;
+  padding: 4px 12px;
 }
 .width-half-image {
   width: 100%;
@@ -131,4 +136,36 @@
   flex: 0 0 50%;
   box-sizing: border-box;
   padding-left: 8px;
+}
+.half-card-price > text:first-child {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.half-card-price > text:last-child {
+  font-size: .75rem;
+  float: right;
+}
+.half-card-name {
+  display: flex;
+}
+.half-card-name > view {
+  flex: 0 0 50%;
+}
+.half-card-name > view:first-child {
+  display: flex;
+  align-items: center;
+}
+.half-card-name > view:first-child > text {
+  height: 100%;
+  text-align: center;
+}
+.half-card-name > view:last-child {
+  text-align: right;
+  font-size: .75rem;
+  color: #3a89e4;
+}
+.half-card-name image {
+  width: 40px;
+  height: 40px;
 }

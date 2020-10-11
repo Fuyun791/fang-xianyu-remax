@@ -10,9 +10,9 @@ page {
 }
 .card {
   border: 1px solid #dce3e5;
-  border-radius: 19px;
+  border-radius: 25px;
   background-color: white;
-  padding: 12px 24px;
+  padding: 24px;
 }
 .scale-1px {
   position: relative;
@@ -29,4 +29,8 @@ page {
   transform: scaleY(0.5);
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
+}
+.font-bold-black {
+  font-weight: bold;
+  color: #000000;
 }
