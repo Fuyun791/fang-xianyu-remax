@@ -1,45 +1,18 @@
-import React, { useState } from "react";
-import { View, Label,Image } from "remax/wechat";
+import React from "react";
+import { useNativeEffect } from "remax";
+import { View, Label,Image, Text } from "remax/wechat";
+import MessageTopImage from "./message-top-image";
+import MessageTalk from "./message-talk";
 import "./message.css";
 
 export default () => {
   return (
-    <View class="box">
-      <View class="item">
-        <Image src="https://fuyun791.github.io/assets/img/xian-yu/1.jpg" alt="" mode="widthFix" />
-        <View>555</View>
-      </View>
-      <View class="item">
-        <Image src="https://fuyun791.github.io/assets/img/xian-yu/2.jpg" alt="" mode="widthFix" />
-        <View>555</View>
-      </View>
-      <View class="item">
-        <Image src="https://fuyun791.github.io/assets/img/xian-yu/1.jpg" alt="" mode="widthFix" />
-        <View>555</View>
-      </View>
-      <View class="item">
-        <Image src="https://fuyun791.github.io/assets/img/xian-yu/2.jpg" alt="" mode="widthFix" />
-        <View>555</View>
-      </View>
-      <View class="item">
-        <Image src="https://fuyun791.github.io/assets/img/xian-yu/1.jpg" alt="" mode="widthFix" />
-        <View>555</View>
-      </View>
-      <View class="item">
-        <Image src="https://fuyun791.github.io/assets/img/xian-yu/2.jpg" alt="" mode="widthFix" />
-        <View>555</View>
-      </View>
-      <View class="item">
-        <Image src="https://fuyun791.github.io/assets/img/xian-yu/1.jpg" alt="" mode="widthFix" />
-        <View>555</View>
-      </View>
-      <View class="item">
-        <Image src="https://fuyun791.github.io/assets/img/xian-yu/1.jpg" alt="" mode="widthFix" />
-        <View>555</View>
-      </View>
-      <View class="item">
-        <Image src="https://fuyun791.github.io/assets/img/xian-yu/1.jpg" alt="" mode="widthFix" />
-        <View>555</View>
+    <View>
+      <View className="top-text-bottom"></View>
+      <View className="content">
+        <MessageTopImage />
+        <MessageTalk />
+        <View className="message-card">可能感兴趣的人</View>
       </View>
     </View>
   );

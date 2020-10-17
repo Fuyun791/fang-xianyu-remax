@@ -12,7 +12,7 @@ import { useNativeEffect } from "remax";
 const cards = [
   {
     productId: 1,
-    productImage: "https://fuyun791.github.io/assets/img/xian-yu/2.jpg",
+    productImage: "http://qic4cf851.hn-bkt.clouddn.com/2.jpg",
     productImageWidth: 900,
     productImageHeight: 1200,
     productTitle: "FGO Saber",
@@ -23,7 +23,7 @@ const cards = [
   },
   {
     productId: 2,
-    productImage: "https://fuyun791.github.io/assets/img/xian-yu/2.jpg",
+    productImage: "http://qic4cf851.hn-bkt.clouddn.com/2.jpg",
     productImageWidth: 900,
     productImageHeight: 1200,
     productTitle: "FGO Saber1200",
@@ -34,7 +34,7 @@ const cards = [
   },
   {
     productId: 3,
-    productImage: "https://fuyun791.github.io/assets/img/xian-yu/1.jpg",
+    productImage: "http://qic4cf851.hn-bkt.clouddn.com/1.jpg",
     productImageWidth: 1200,
     productImageHeight: 856,
     productTitle: "Pokma LOVE",
@@ -45,7 +45,7 @@ const cards = [
   },
   {
     productId: 4,
-    productImage: "https://fuyun791.github.io/assets/img/xian-yu/2.jpg",
+    productImage: "http://qic4cf851.hn-bkt.clouddn.com/2.jpg",
     productImageWidth: 900,
     productImageHeight: 1200,
     productTitle: "Saber4800",
@@ -56,7 +56,7 @@ const cards = [
   },
   {
     productId: 5,
-    productImage: "https://fuyun791.github.io/assets/img/xian-yu/1.jpg",
+    productImage: "http://qic4cf851.hn-bkt.clouddn.com/1.jpg",
     productImageWidth: 1200,
     productImageHeight: 856,
     productTitle: "Pokma LOVE",
@@ -141,9 +141,10 @@ export default () => {
         .catch((e) => {
           console.log(e);
         });
+      // 通过上面的getSystemInfo来获取手机的屏幕这些信息
       let width = res.windowWidth;
       width = (width - 34) / 2;
-      // 假装此处使用 axios 获取了数据
+      // 假装此处使用 axios 获取了数据，并把数据赋值给了cardList
       const cardList = cards;
       let leftHeight = 0,
         rightHeight = 0,

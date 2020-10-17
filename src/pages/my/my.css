@@ -7,10 +7,6 @@
   border-bottom-right-radius: 20%;
   z-index: -1;
 }
-.content {
-  box-sizing: border-box;
-  padding: 26px;
-}
 .userInfo {
   display: flex;
   align-items: center;

@@ -7,8 +7,8 @@ const secondCardImage = [
     title: "闲鱼玩家",
     description: "最懂的人",
     images: [
-      "https://fuyun791.github.io/assets/img/xian-yu/1.jpg",
-      "https://fuyun791.github.io/assets/img/xian-yu/2.jpg",
+      "http://qic4cf851.hn-bkt.clouddn.com/1.jpg",
+      "http://qic4cf851.hn-bkt.clouddn.com/2.jpg",
     ],
   },
   {
@@ -16,8 +16,8 @@ const secondCardImage = [
     title: "值得买",
     description: "自用闲置低价转",
     images: [
-      "https://fuyun791.github.io/assets/img/xian-yu/3.jpg",
-      "https://fuyun791.github.io/assets/img/xian-yu/4.jpg",
+      "http://qic4cf851.hn-bkt.clouddn.com/3.jpg",
+      "http://qic4cf851.hn-bkt.clouddn.com/4.jpg",
     ],
   },
   {
@@ -25,8 +25,8 @@ const secondCardImage = [
     title: "闲鱼直播",
     description: "LIVE",
     images: [
-      "https://fuyun791.github.io/assets/img/xian-yu/3.jpg",
-      "https://fuyun791.github.io/assets/img/xian-yu/4.jpg",
+      "http://qic4cf851.hn-bkt.clouddn.com/3.jpg",
+      "http://qic4cf851.hn-bkt.clouddn.com/4.jpg",
     ],
   },
   {
@@ -34,8 +34,8 @@ const secondCardImage = [
     title: "优品捡漏",
     description: "有质保 可退换",
     images: [
-      "https://fuyun791.github.io/assets/img/xian-yu/1.jpg",
-      "https://fuyun791.github.io/assets/img/xian-yu/2.jpg",
+      "http://qic4cf851.hn-bkt.clouddn.com/1.jpg",
+      "http://qic4cf851.hn-bkt.clouddn.com/2.jpg",
     ],
   },
 ];

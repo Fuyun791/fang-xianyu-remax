@@ -13,7 +13,7 @@ export default () => {
       <View>
         <Image
           className="userInfo-image"
-          src="https://fuyun791.github.io/assets/img/xian-yu/1.jpg"
+          src="http://qic4cf851.hn-bkt.clouddn.com/1.jpg"
         />
       </View>
       <View className="userInfo-center">
